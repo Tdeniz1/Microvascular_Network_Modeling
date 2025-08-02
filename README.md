@@ -89,6 +89,12 @@ All four scenarios are modeled on the same coronary-like network:
 
 ![Scenario Comparison](outputs/scenario_comparison-2.png)
 
+The key takeaways for each of the four scenarios are shown in the figure above. The figure provides a summarized view of each pathway’s hemodynamics.In the linked .ipynb on the main branch, a more detailed quantitative analysis is available.
+**Normal** – Blood flows evenly through both the upper and lower branches. Pressure drops gradually from the inlet (IN) to the outlet (OUT) without any sharp drops, reflecting uniform vessel diameters and balanced resistance across the network.
+**Cholesterol (Mid-branch)** – Flow through the P2 → C2 branch is visibly reduced, and the C2 node appears warmer in color (red/orange), indicating a significant pressure drop. Other upper branches carry more of the flow. This occurs because a 50% radius reduction dramatically increases resistance in that branch (Poiseuille’s law: resistance ∝ 1/r⁴), causing a steep pressure drop before and across the stenosis. Blood preferentially routes through alternative branches with lower resistance.
+**Exercise (Distal Dilation)** – Distal branches (C1, C2, C3, V1, V2) have thicker, greener edges, indicating higher flow. Pressure drops in these branches are smaller due to a 20% radius increase in the distal vessels, which significantly lowers their resistance. This promotes increased microvascular blood flow, matching the physiological need for greater oxygen delivery during exercise.
+**Distal Occlusion** – The P3 → C3 → V2 branch is nearly absent (thin, dark blue edges), with C3 and V2 showing almost zero pressure. The upper branches carry most of the flow because a 90% radius reduction in P3 → C3 raises resistance so sharply that almost no blood passes through. Downstream vessels lose pressure entirely, and blood is rerouted through alternative, lower-resistance pathways, creating an uneven load distribution.
+
 ---------------------------------------------------------------------------------------------------------------------
 
 ## Technologies Used
