@@ -87,8 +87,7 @@ All four scenarios are modeled on the same coronary-like network:
 
 ## Example Figure
 
-from google.colab import files
-files.download(""Coronary Microcirculation — Scenario Comparison".png")
+![Scenario Comparison](outputs/scenario_comparison.png)
 
 ---------------------------------------------------------------------------------------------------------------------
 
