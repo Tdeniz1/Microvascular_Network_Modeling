@@ -87,7 +87,7 @@ All four scenarios are modeled on the same coronary-like network:
 
 ## Example Figure
 
-![Scenario Comparison](outputs/scenario_comparison.png)
+![Scenario Comparison](outputs/scenario_comparison-2.png)
 
 ---------------------------------------------------------------------------------------------------------------------
 
