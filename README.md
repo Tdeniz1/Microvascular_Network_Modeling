@@ -117,7 +117,7 @@ The key takeaways for each of the four scenarios are shown in the figure above. 
 - ML models to predict perfusion loss from vessel geometry
 
 
-##Author
+## Author
 
 **Deniz Turk** — Biomedical Engineering student, University of South Carolina
 Focused on computational modeling, data visualization, and applied physics in cardiovascular systems.
